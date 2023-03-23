@@ -1,0 +1,241 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #f5ebe0;
+}
+
+li,a,button{
+    color:rgb(138, 136, 136);
+    text-decoration: none;
+    font-weight:300;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    transition: transform 2s;
+}
+
+li,a:hover{
+    /* color:#6b705c; */
+    color:#ea5772; 
+    transform: scale(1.1); 
+}
+
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items:center;
+   padding: 30px 5.4%;
+   
+}
+
+.nav-link li{
+    display:inline-block;
+    padding:0 20px;
+    position: relative;
+    bottom: 1rem;
+
+}
+
+.sign-in{
+    transform: translateX(.5%);
+   
+}
+
+.btn-hire{
+  transform: translateX(-100%);
+  
+}
+
+.btn-hire{
+    border-radius:2rem;
+    border:none;
+    outline:none;
+    background-image:linear-gradient(90deg, #eaab54, #ea5772);
+    color:#fff;
+    font-weight:400;
+    width:8rem;
+    height:2rem;
+    transition: box-shadow,transform 2s;
+}
+
+.btn-hire:hover{
+    box-shadow: 0.2px 0.2px 20px 1px #e76f51;
+    transform: scale(1.1);
+}
+
+.btn-join{
+    margin-right:3rem;
+    border-radius:5px;
+    padding:.8rem;
+    margin-left:1.5rem;
+    border:none;
+    color:#fff;
+    background-color: #4361ee;
+    cursor:pointer;
+    transition: transform .3s;
+}
+
+.btn-join:hover{
+    transform: scale(1.1);
+}
+
+.host-form-details{
+
+    max-width:50%;
+    padding:4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0 3rem;
+ 
+}
+
+.host-text h1{
+    font-family: 'Playfair Display', serif;
+    font-size:3rem;
+    width:80%;
+}
+
+.host-text p{
+    font-family: 'Lato', sans-serif;
+    color: rgb(138, 136, 136);
+    margin:20px 0;
+    line-height: 1.5;
+    width:70%;
+    font-size:1rem;
+}
+
+.detail{
+    position:relative;
+    right:6rem;
+}
+
+.detail .input-area{
+
+    width: 300px;
+    height:50px;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    padding: 0 20px;
+    font-weight: 500;
+
+}
+
+.input-join{
+    position: relative;
+    top:2px;
+    right:10px;
+    margin-right:3rem;
+    border-radius:5px;
+    padding:.9rem;
+    margin-left:1.5rem;
+    border:none;
+    color:#fff;
+    background-color: #4361ee;
+    cursor:pointer;
+    transition: transform .3s;
+}
+
+.input-join:hover{
+    transform: scale(1.1);
+}
+
+.sub-detail{
+    margin:10px 0;
+    padding:10px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(138, 136, 136);
+    position: relative;
+    right:11rem;
+
+}
+
+.sub-detail .spam-icon{
+    display: inline;
+    position: relative;
+    top:4px;
+    padding-right:1rem;
+}
+
+.sub-detail .spam-msg{
+    font-size: 18px;
+}
+
+
+#container{
+    display: flex;
+   
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+    margin:20px 20px;
+    padding:10px 10px;
+}
+
+.blue-shape{
+    position:absolute;
+    transform: rotate(-40deg);
+}
+
+.pink-shape{
+    position: relative;
+    transform: rotate(-30deg);
+}
+
+.purple-shape{
+    position: absolute;
+    transform: rotate(-20deg);
+}
+
+.hero-img{
+    position: absolute;
+    transform: rotate(-5deg);
+    width:25%;
+}
+
+.foot{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    margin: 10px 10px;
+    
+}
+
+
+.vist-list,ul,li{
+    font-family: 'Lato', sans-serif;
+    color: rgb(138, 136, 136);
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:2rem;
+    margin: 1rem 0 0 1rem;
+    
+}
+
+.guest-quiery .quiery{
+    font-family: 'Playfair Display', serif;
+}
+
+.guest-quiery .quiery2{
+    position:relative;
+    left:3.2rem;
+    font-family: 'Lato', sans-serif ;
+}
+
+.guest-quiery .hero-avt{
+    position: relative;
+    top:1.5rem;
+    right:1rem;
+}
